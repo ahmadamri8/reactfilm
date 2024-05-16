@@ -1,0 +1,49 @@
+.film-detail-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .film-detail {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: #1f2123;
+    border-radius: 12px;
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  }
+  
+  .film-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1514149a;
+  }
+  
+  .film-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #1514149a;
+  }
+  
+  .film-detail input[type="number"] {
+    width: 60px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .film-detail button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #1f2123;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .film-detail button:hover {
+    background-color: #ffffff;
+    color: #1f2123;
+  }
+  
